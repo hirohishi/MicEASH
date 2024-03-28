@@ -1,0 +1,2 @@
+[console_scripts]
+MicEASH = src:cli
