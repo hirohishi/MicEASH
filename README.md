@@ -1,7 +1,3 @@
-Based on the detailed information you provided, I can create an English translation and format it in the style of a README.md. Let's start with translating and organizing this text.
-
----
-
 # MicEASH
 
 Welcome to MicEASH. This Python package is dedicated to supporting molecular biology research, particularly focusing on seqFISH analysis to explore higher-order genome structures across the entire genome. By utilizing the spatial information of genomic coordinates provided by seqFISH, MicEASH allows researchers to calculate the actual distances between genomic regions within a single cell and analyze gene transcription and protein localization related to these regions.
@@ -71,7 +67,3 @@ MicEASH is released under the MIT license. See [LICENSE](LICENSE.md) for more de
 ## Contact
 
 If you have any questions or need support, please contact our team at [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Would you like any changes or additional information included in this README.md file?
