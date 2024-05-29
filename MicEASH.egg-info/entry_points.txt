@@ -1,0 +1,2 @@
+[console_scripts]
+MicEASH = mic_eash.cli:cli
