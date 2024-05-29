@@ -1,8 +1,0 @@
-setup.py
-MicEASH.egg-info/PKG-INFO
-MicEASH.egg-info/SOURCES.txt
-MicEASH.egg-info/dependency_links.txt
-MicEASH.egg-info/entry_points.txt
-MicEASH.egg-info/requires.txt
-MicEASH.egg-info/top_level.txt
-tests/test_preprocess.py
