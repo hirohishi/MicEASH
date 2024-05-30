@@ -40,7 +40,7 @@ Download the test data and supplementary files using the following URLs:
 Unzip the downloaded files and place them in the `test_data` folder.
 
 
-### Try MicEASH in jupyter notebook
+### Trying MicEASH in jupyter notebook
 
 1. Open your terminal and navigate to the MicEASH folder:
     ```sh
@@ -55,7 +55,8 @@ Unzip the downloaded files and place them in the `test_data` folder.
     jupyter notebook
     ```
 4. Open the `Spatial_distance_analysis.ipynb` file in the Jupyter Notebook interface.
-5. Execute the notebook code. Enjoy!!
+5. Execute the notebook code.
+6. Enjoy!!
 
 ## Acknowledgements
 
