@@ -75,7 +75,6 @@ class DataPlotter:
 
         marker_dict = {0: 'o', 1: '^'} 
 
-        # アレルによる色のリスト
         colors = []
         for chromID in sorted(df_filtered['chromID'].unique()):
             df_subset = df_filtered[df_filtered['chromID'] == chromID]
@@ -92,7 +91,6 @@ class DataPlotter:
                         linewidths=0.5, 
                         edgecolor='black')
 
-                # ラインの追加
                 sorted_allele_subset = allele_subset.sort_values('hyb')
                 ax.plot(sorted_allele_subset['x'], sorted_allele_subset['y'], sorted_allele_subset['z'],
                         color=color, linewidth=2)
