@@ -9,7 +9,6 @@ def matrix(data_path, posi_file, chromosome, voxel_size_xyz):
     df_dna_new = df_dna_new[df_dna_new['Chrom'] == chromosome]
     df_dna_new['finalcellID'] = df_dna_new.groupby(['cellID', 'fov', 'Allele']).ngroup()
     
-    # 優先度の高いhybを選択
     df_dna_new = select_high_priority_hyb(df_dna_new)
     
     data_IDs, data_XYZ = data_in(df_dna_new, voxel_size_xyz)
@@ -19,7 +18,6 @@ def matrix(data_path, posi_file, chromosome, voxel_size_xyz):
     analysis = os.path.join(data_path, 'analysis', 'output_matrix')
     os.makedirs(analysis, exist_ok=True)
     
-    # Save the distance matrix
     np.save(os.path.join(analysis, posi_file.replace('.csv', f'_{chromosome}_distance.npy')), distance)
     np.save(os.path.join(analysis, posi_file.replace('.csv', f'_{chromosome}_mean.npy')), mean)
     np.save(os.path.join(analysis, posi_file.replace('.csv', f'_{chromosome}_medi.npy')), medi)
@@ -50,8 +48,8 @@ def data_in(df, voxel_size_xyz):
 def dist(data_IDs, data_XYZ):
 
     SAMPLE_num = len(np.unique(data_IDs[:, 0])) + 1
-    N = np.amax(data_IDs[:, 1]) + 1  # Number of hybs
-    distance = np.full((N, N, SAMPLE_num), np.nan)  # Initialize the distance array
+    N = np.amax(data_IDs[:, 1]) + 1  
+    distance = np.full((N, N, SAMPLE_num), np.nan)  
 
     for num, sample in enumerate(np.unique(data_IDs[:, 0])):
         indices = np.where(data_IDs[:, 0] == sample)[0]
