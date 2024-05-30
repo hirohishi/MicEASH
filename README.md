@@ -40,7 +40,7 @@ Download the test data and supplementary files using the following URLs:
 Unzip the downloaded files and place them in the `test_data` folder.
 
 
-### Preprocessing Bright Spot Information Data
+### Try MicEASH in jupyter notebook
 
 1. Open your terminal and navigate to the MicEASH folder:
     ```sh
