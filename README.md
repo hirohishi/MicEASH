@@ -55,7 +55,7 @@ Unzip the downloaded files and place them in the `test_data` folder.
     jupyter notebook
     ```
 4. Open the `Spatial_distance_analysis.ipynb` file in the Jupyter Notebook interface.
-5. Execute the notebook code to preprocess bright spot information data.
+5. Execute the notebook code. Enjoy!!
 
 ## Acknowledgements
 
