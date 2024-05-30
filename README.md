@@ -2,7 +2,7 @@
 
 Welcome to MicEASH. This Python package is dedicated to supporting molecular biology research, particularly focusing on seqFISH analysis to explore higher-order genome structures across the entire genome. By utilizing the spatial information of genomic coordinates provided by seqFISH, MicEASH allows researchers to calculate the actual distances between genomic regions within a single cell and analyze gene transcription and protein localization related to these regions.
 
-## Visualizing genomic distances: Insights from seqFISH data
+## Visualizing genomic distances from seqFISH data
 
 ### Execution via a Personal Computer
 
