@@ -58,38 +58,10 @@ Unzip the downloaded files and place them in the `test_data` folder.
 4. Open the `Spatial_distance_analysis.ipynb` file in the Jupyter Notebook interface.
 5. Execute the notebook code to preprocess bright spot information data.
 
-### Spot Alignment to an Allele
-
-Using the preprocessed data, perform allele separation for the two homologous chromosomes.
-
-### Visualization of Nuclear Spot Information
-
-Visualize chromosome 12 and all chromosomes in a cell to confirm allele distinction.
-
-### Calculating Distances Between Spots
-
-Calculate the pairwise distances between all genomic regions within each chromosome.
-
-### Visualization of Distance Matrix Information
-
-Visualize the distance matrix information in a heatmap to reveal features of higher-order genomic structures.
-
-### Comparison of Genomic Coordinate–Pair Distances and Actual Genomic-Pair Distances
-
-Compare the actual genome structure to the genomic coordinates.
-
-### Comparison of Hi-C Contact Count Information and seqFISH Data
-
-Compare the distance matrix data from seqFISH with the contact frequency matrix data from Hi-C.
-
 ## Acknowledgements
 
 We thank Hiroshi Ochiai (Kyushu University) and Soya Shinkai (RIKEN BDR) for their invaluable comments on the methods. This work was supported by JSPS KAKENHI to H.Oh (JP22K15084).
 
-
-## Contributing
-
-Contributions are welcome! Please review our [contributing guidelines](https://example.com/miceash-contributing) before making a contribution.
 
 ## Contact
 
