@@ -39,7 +39,6 @@ Download the test data and supplementary files using the following URLs:
 
 Unzip the downloaded files and place them in the `test_data` folder.
 
-## Methods
 
 ### Preprocessing Bright Spot Information Data
 
